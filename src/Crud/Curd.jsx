@@ -50,7 +50,7 @@ function Curd() {
   // Save
   const handlesave = () => {
     if (!name || !address || !surname) {
-      alert("Please Enter  All Field's 📍");
+      alert("Please Enter All Field's 📍");
       return;
     }
     // NewData variable is an object to collect new enterd data and id
